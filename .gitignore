@@ -1,0 +1,58 @@
+# Arduino IDE files
+*.hex
+*.eep
+*.elf
+*.map
+*.sym
+*.lss
+*.lst
+
+# Build directories
+build/
+*.build/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Python (if using serial scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Node modules (if using web interface)
+node_modules/
+package-lock.json
+
+# Compiled libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Documentation build
+docs/_build/
